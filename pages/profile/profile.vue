@@ -20,8 +20,12 @@
         <text>Past Bids</text>
         <text class="chevron">›</text>
       </view>
-      <view class="card-item">
-        <text>Purchases</text>
+      <view class="card-item" @click="clickOnTab('/pages/shippingAddress/shippingAddress')">
+        <text>Shipping Address</text>
+        <text class="chevron">›</text>
+      </view>
+      <view class="card-item" @click="clickOnTab('/pages/vaultHistory/vaultHistory')">
+        <text>Orders</text>
         <text class="chevron">›</text>
       </view>
       <view class="card-item">
@@ -38,8 +42,17 @@
   </view>
 </template>
 
-<script setup>
+<script >
 import Footer from "@/components/Footer.vue"; // Adjust the path as needed
+export default{
+  methods:{
+     clickOnTab(endRoute){
+       uni.navigateTo({
+        url: endRoute,
+      });
+     }
+  }
+}
 </script>
 
 <style scoped>
@@ -47,11 +60,10 @@ import Footer from "@/components/Footer.vue"; // Adjust the path as needed
   background-color: #100021;
   min-height: 100vh;
   color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding-top: 40px;
+  display: block; /* default block layout */
 }
+
 
 .edit-button {
   height: 31px;
