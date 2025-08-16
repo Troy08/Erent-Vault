@@ -55,13 +55,30 @@
     {
       "path": "pages/leasePage/lease-detail/lease-detail",
       "style": {
-        "navigationBarTitleText": ""
+        "navigationBarTitleText": "Lease Details"
       }
     },
     {
       "path": "pages/leasePage/buyout-detail/buyout-detail",
       "style": {
-        "navigationBarTitleText": ""
+        "navigationBarTitleText": "BuyOut Details"
+      }
+    },
+     {
+      "path": "pages/shippingAddress/shippingAddress",
+      "style": {
+        "navigationBarTitleText": "Shipping Address"
+      }
+    },
+     {
+      "path": "pages/shippingAddress/editShippingAddress",
+      "style": {
+        "navigationBarTitleText": "Edit Address"
+      }
+    },{
+      "path": "pages/vaultHistory/vaultHistory",
+      "style": {
+        "navigationBarTitleText": "Vault History"
       }
     }
   ]
