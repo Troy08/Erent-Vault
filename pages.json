@@ -2,84 +2,74 @@
   "pages": [
     {
       "path": "pages/intro/intro",
-      "style": {
-        "navigationBarTitleText": "Welcome"
-      }
+      "style": { "navigationBarTitleText": "Welcome" }
     },
     {
       "path": "pages/signinup/signinup",
-      "style": {
-        "navigationBarTitleText": "Login/SignUp"
-      }
+      "style": { "navigationBarTitleText": "Login/SignUp" }
     },
     {
       "path": "pages/mainPage/mainPage",
-      "style": {
-        "navigationBarTitleText": "Home"
-      }
+      "style": { "navigationBarTitleText": "Home" }
     },
     {
       "path": "pages/signup/signup",
-      "style": {
-        "navigationBarTitleText": "SignUp"
-      }
+      "style": { "navigationBarTitleText": "SignUp" }
     },
     {
       "path": "pages/profile/profile",
-      "style": {
-        "navigationBarTitleText": "Profile"
-      }
+      "style": { "navigationBarTitleText": "Profile" }
     },
     {
       "path": "pages/scan/scan",
-      "style": {
-        "navigationBarTitleText": "Scan"
-      }
+      "style": { "navigationBarTitleText": "Scan" }
     },
     {
       "path": "pages/initiatearequest/initiatearequest",
-      "style": {
-        "navigationBarTitleText": "Initiate A Request"
-      }
+      "style": { "navigationBarTitleText": "Initiate A Request" }
     },
     {
       "path": "pages/cardstatus/cardstatus",
-      "style": { "navigationBarTitleText": " Card Status" }
+      "style": { "navigationBarTitleText": "Card Status" }
+    },
+    {
+      "path": "pages/details/details",
+      "style": { "navigationBarTitleText": "Details" }
     },
     {
       "path": "pages/leasePage/leasePage",
-      "style": {
-        "navigationBarTitleText": "My Lease"
-      }
+      "style": { "navigationBarTitleText": "My Lease" }
     },
     {
       "path": "pages/leasePage/lease-detail/lease-detail",
-      "style": {
-        "navigationBarTitleText": "Lease Details"
-      }
+      "style": { "navigationBarTitleText": "Lease Detail" }
     },
     {
       "path": "pages/leasePage/buyout-detail/buyout-detail",
-      "style": {
-        "navigationBarTitleText": "BuyOut Details"
-      }
+      "style": { "navigationBarTitleText": "Buyout Detail" }
     },
-     {
+    {
+      "path": "pages/collect/myCollection",
+      "style": { "navigationBarTitleText": "My Collection" }
+    },
+    {
+      "path": "pages/splashScreen/splashScreen",
+      "style": { "navigationBarTitleText": "Splash Screen" }
+    },
+    {
       "path": "pages/shippingAddress/shippingAddress",
-      "style": {
-        "navigationBarTitleText": "Shipping Address"
-      }
+      "style": { "navigationBarTitleText": "Shipping Address" }
     },
-     {
+    {
       "path": "pages/shippingAddress/editShippingAddress",
-      "style": {
-        "navigationBarTitleText": "Edit Address"
-      }
-    },{
+      "style": { "navigationBarTitleText": "Edit Address" }
+    },
+    {
       "path": "pages/vaultHistory/vaultHistory",
-      "style": {
-        "navigationBarTitleText": "Vault History"
-      }
+      "style": { "navigationBarTitleText": "Vault History" }
     }
   ]
 }
+
+
+
