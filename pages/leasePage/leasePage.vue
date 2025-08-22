@@ -47,7 +47,7 @@
 
           <view class="lease-metrics">
             <view class="price-row">
-              <img src="/static/icons/dollar-icon.png" class="token-icon" />
+              <image src="/static/icons/dollar-icon.png" class="token-icon" />
               <text class="lease-price">{{ item.price }}</text>
             </view>
             <text
@@ -68,7 +68,8 @@
 </template>
 
 <script setup>
-import Footer from '@/components/footer.vue';
+import Footer from '@/components/footer.vue'
+import { ref } from 'vue'
 
 const leases = [
   { name: 'Eevee', category: 'Pokemon', image: '/static/cards/lease-card.png', price: '355.02', change: 0 },
