@@ -207,7 +207,7 @@
 </template>
 
 <script setup>
-import Footer from "@/components/Footer.vue"; // adjust path as needed
+import Footer from "@/components/footer.vue"; // adjust path as needed
 </script>
 <style scoped>
 .page-wrapper {

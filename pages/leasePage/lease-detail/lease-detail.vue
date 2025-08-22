@@ -78,7 +78,7 @@
 </template>
 
 <script setup>
-import Footer from "@/components/Footer.vue";
+import Footer from "@/components/footer.vue";
 import PriceChart from "../../../components/priceChart.vue";
 import PropertyGrid from "../../../components/propertyGrid.vue";
 

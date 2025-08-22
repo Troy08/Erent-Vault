@@ -61,7 +61,7 @@
 </template>
 
 <script>
-import Footer from "@/components/Footer.vue";
+import Footer from "@/components/footer.vue";
 
 export default {
   name: "EditShippingAddress",

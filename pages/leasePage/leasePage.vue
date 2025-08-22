@@ -35,7 +35,7 @@
 
           <view class="lease-metrics">
             <view class="price-row">
-              <img src="/static/icons/token-icon.png" class="token-icon" />
+              <img src="/static/icons/dollar-icon.png" class="token-icon" />
               <text class="lease-price">{{ item.price }}</text>
             </view>
             <text
@@ -57,7 +57,7 @@
 
 
 <script setup>
-import Footer from '@/components/Footer.vue';
+import Footer from '@/components/footer.vue';
 
 const leases = [
   {

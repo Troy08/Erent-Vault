@@ -81,7 +81,7 @@
 </template>
 
 <script setup>
-import Footer from "@/components/Footer.vue";
+import Footer from "@/components/footer.vue";
 const card = {
   name: "Eevee",
   id: 2815,

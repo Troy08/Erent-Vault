@@ -46,7 +46,7 @@
 </template>
 
 <script>
-import Footer from "@/components/Footer.vue"; // Adjust the path as needed
+import Footer from "@/components/footer.vue"; // Adjust the path as needed
 export default {
   name: "ShippingAddress",
   components:{
