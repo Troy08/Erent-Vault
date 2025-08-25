@@ -67,7 +67,27 @@
     {
       "path": "pages/vaultHistory/vaultHistory",
       "style": { "navigationBarTitleText": "Vault History" }
-    }
+    },
+	{
+	  "path": "pages/collect/myCollection",
+	  "style": { "navigationBarTitleText": "My Collection" }
+	},
+	{
+	  "path": "pages/post/fillingForm",
+	  "style": { "navigationBarTitleText": "Filling Form" }
+	},
+	{
+	  "path": "pages/post/scanning",
+	  "style": { "navigationBarTitleText": "Scanning" }
+	},
+	{
+	  "path": "pages/order/buyOutComplete",
+	  "style": { "navigationBarTitleText": "Buy Out Complete" }
+	},
+	{
+	  "path": "pages/post/submitted",
+	  "style": { "navigationBarTitleText": "Submitted" }
+	}
   ]
 }
 
