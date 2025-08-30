@@ -8,12 +8,14 @@
       <view class="scan-corner br"></view>
     </view>
     <view class="scan-bottom-bar">
-      <u-icon
-        class="scan-icon"
-        :name="require('@/static/img/common/album-icon.png')"
-        :size="32"
-        @click="chooseFromAlbum"
-      />
+		<view class="scan-icon-wrap" @click="chooseFromAlbum">
+			<image
+			  class="scan-icon"
+			  src="/static/img/common/album-icon.png"
+			  mode="widthFix"
+			/>
+		</view>
+      
       <view class="scan-shutter" @click="takePhoto">
         <view class="scan-shutter-inner"></view>
       </view>
@@ -118,11 +120,18 @@ export default {
   z-index: 10;
   box-sizing: border-box;
 }
-.scan-icon {
-  margin-right: 12vw;
+
+.scan-icon-wrap {
   position: relative;
+  margin-right: 12vw;
   left: -18vw;
   top: -8vh;
+}
+
+.scan-icon {
+  width: 32px;
+  height: 32px;
+  display: block;
 }
 .scan-shutter {
   width: 22vw;
