@@ -49,10 +49,6 @@
       "style": { "navigationBarTitleText": "Buyout Detail" }
     },
     {
-      "path": "pages/collect/myCollection",
-      "style": { "navigationBarTitleText": "My Collection" }
-    },
-    {
       "path": "pages/splashScreen/splashScreen",
       "style": { "navigationBarTitleText": "Splash Screen" }
     },

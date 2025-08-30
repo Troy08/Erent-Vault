@@ -15,17 +15,9 @@
 export default {
   methods: {
     takePhoto() {
-      uni.chooseImage({
-        count: 1,
-        sizeType: ["original", "compressed"],
-        sourceType: ["camera"],
-        success: (res) => {
-          console.log("Image Path:", res.tempFilePaths[0]);
-        },
-        fail: (err) => {
-          console.error("Camera access denied or failed", err);
-        },
-      });
+      uni.navigateTo({
+                  url: '/pages/post/scanning'
+                });
     },
   },
 };
