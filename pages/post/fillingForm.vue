@@ -31,13 +31,20 @@
         </select>
       </div>
     </div>
-    <button class="submit-btn">Submit</button>
+    <button class="submit-btn" @click="handleSubmit">Submit</button>
   </div>
 </template>
 
 <script>
 export default {
   name: 'FillingForm',
+  methods: {
+    handleSubmit() {
+      uni.navigateTo({
+        url: '/pages/post/submitted'
+      });
+    }
+  }
 };
 </script>
 

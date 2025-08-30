@@ -140,9 +140,8 @@ export default {
 	  color: #fff;
 	  font-size: 32rpx;
 	  padding: 10rpx 0;
-	  margin-top: 20rpx;
 	  position: absolute;
-	  bottom: 50rpx;
+	  bottom: 130rpx;
 	  left: 10%;
 	  right: 10%;
 	  border: none;
