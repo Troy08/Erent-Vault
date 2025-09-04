@@ -247,7 +247,7 @@ import Footer from "@/components/footer.vue"; // adjust path as needed
 }
 
 .search-bar {
-  border-radius: 40rpx;
+  border-radius: 24rpx;
   padding: 20rpx 24rpx;
   background: #2a0044;
   display: flex;

@@ -315,11 +315,15 @@ export default {
 
 <style>
 .container {
-  background: linear-gradient(180deg, #4A3B5C 0%, #2D1B3D 50%, #1A0E23 100%);
+  /* overlay (on top), then your original gradient (beneath) */
+  background:
+    linear-gradient(rgba(0,0,0,0.32), rgba(0,0,0,0.32)),
+    linear-gradient(180deg, #4A3B5C 0%, #2D1B3D 50%, #1A0E23 100%);
   min-height: 100vh;
-  color: white;
+  color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
+
 
 .status-bar {
   display: flex;
