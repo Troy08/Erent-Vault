@@ -103,33 +103,38 @@ export default {
 .subtitle {
   display: block;
   color: #b3b3b3;
-  margin-bottom: 60rpx;
   font-size: 28rpx;
   text-align: left;
   margin-top: 40rpx;
 }
 
-/* Glass card */
+/* Glass card  */
 .form-box {
-  width: 100vw;                   /* fill the viewport width */
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
   max-width: 100vw;
-  margin-left: calc(50% - 50vw);  /* pull to the left edge */
-  margin-right: calc(50% - 50vw); /* pull to the right edge */
-  position: relative;
-  z-index: 1;
-  margin: 0 auto; /* centered */
+  margin: 0;
+  box-sizing: border-box;
+
+  z-index: 1000;
   padding: 40rpx 80rpx 80rpx;
-  border-radius: 28rpx;
-   background:
-       linear-gradient(180deg, rgba(0,0,0,0.06), rgba(0,0,0,0.06)),
-       linear-gradient(180deg, rgba(44,12,70,0.22) 20%, rgba(34,8,60,0.48) 100%);
+  border-radius: 28rpx 28rpx 0 0;
+
+  background:
+    linear-gradient(180deg, rgba(0,0,0,0.06), rgba(0,0,0,0.06)),
+    linear-gradient(180deg, rgba(44,12,70,0.22) 20%, rgba(34,8,60,0.48) 100%);
   box-shadow:
     0 24rpx 60rpx rgba(11, 0, 30, 0.45),
     inset 0 1rpx 0 rgba(255, 255, 255, 0.06);
   backdrop-filter: blur(16rpx);
   overflow: hidden;
-  box-sizing: border-box;
+
+  border-top: 1rpx solid rgba(255,255,255,0.2);
 }
+
 
 .label {
   color: #ccc;
