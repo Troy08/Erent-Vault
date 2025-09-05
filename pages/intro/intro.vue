@@ -100,6 +100,7 @@ html, body {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: 160rpx;
 }
 
 /* Gradient button with rounded corners */
