@@ -468,22 +468,6 @@ import Footer from "@/components/footer.vue"; // adjust path as needed
   font-weight: 500;
 }
 
-/* Footer */
-.bottom-nav {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: #2a0044;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 20rpx 0 40rpx;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.3);
-  z-index: 10;
-}
 
 .icons {
   height: 16px;

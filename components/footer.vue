@@ -2,7 +2,7 @@
   <view class="bottom-nav">
     <!-- Home -->
     <view class="nav-icon" @click="goNext('mainPage/mainPage','mainPage')">
-      <img class="footer-icons" 
+      <img class="footer-icons-home" 
         :src="page==='mainPage' 
           ? '/static/icons/home-icon.png' 
           : '/static/icons/home-outlined-icon.png'" />
@@ -68,7 +68,7 @@ export default {
   left: 0;
   width: 100%;
   height: 100rpx;
-  background: #2a0044;
+  /* or simply background: transparent; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -76,7 +76,9 @@ export default {
   padding-bottom: 60rpx;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
+  backdrop-filter: blur(8px); /* optional: frosted glass effect */
 }
+
 
 .nav-icon {
   width: 60rpx;
@@ -98,6 +100,11 @@ export default {
 .footer-icons {
   width: 44px;
   height: 44px;
+}
+
+.footer-icons-home {
+  width: 52px;
+  height: 52px;
 }
 
 .footer-icon-profile {
